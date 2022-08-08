@@ -1,0 +1,52 @@
+    1  ssh-keygen -t ed25519
+    2* ls -la ~/.ss
+    3  ssh-keygen -t rsa -C "hoav98"
+    4  history
+    5  ls -la ~/.ssh
+    6  cat id_rsa.pub
+    7  cat ~/.ssh/id_rsa.pub
+    8  git clone git@github.com:hoav98/ansible100.git
+    9  which git
+   10  sudo yum install git
+   11  git clone git@github.com:hoav98/ansible100.git
+   12  ls
+   13  ls -la
+   14  ls -la | grep 6d
+   15  ls -la | grep ^d
+   16  ls -la | grep ^d | grep ansible
+   17  ls -la | more
+   18  ls -la | grep ^d | grep ansible
+   19  git clone git@github.com:hoav98/ansible100.git
+   20  ssh-keygen -t ecdsa -C "ecdsa"
+   21  cd 
+   22  cd .ssh
+   23  ll
+   24  cat id_ecdsa.pub
+   25  git clone git@github.com:hoav98/ecdsa.git
+   26  ls -lt |  more
+   27  ls -la ecdsa
+   28  git config --global user.name "Dennis vuong"
+   29  git config --global user.email "dennis.vuong@global.com"
+   30  cat ~/.gitconfig
+   31  cd
+   32  cd ecdsa
+   33  h20
+   34  cd
+   35  h20
+   36  cd .ssh
+   37  ll
+   38  cd ecdsa
+   39  ls
+   40  vi README.md
+   41  cat README.md
+   42  git status
+   43  clear
+   44  git diff 
+   45  git diff README.md
+   46  git add README.md
+   47  git commit -m "update README.md - commit"
+   48  git push origin master 
+   49  history
+   50  history >> sossnote
+   51  vi sossnote
+   52  history >> mynote1
